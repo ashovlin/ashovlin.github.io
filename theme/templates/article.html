@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 style="display:inline-block; padding-right:12px;">{{article.title}}</h1> <span>{{article.date|strftime('%B %Y') }}</span>
+<a style="float: right" href="/">Back to home</a>
+
+{{ article.content }}
+<a href="/">Back to home</a>
+{% endblock %}

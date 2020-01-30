@@ -2,13 +2,17 @@ Title: Duoscroll
 Date: 2017-01-28
 Category: Projects
 Authors: Alex Shovlin
-Summary: Chrome extension to fix one tiny UX interaction on [Duolingo](http://duolingo.com).
+Summary: (A now deprecated) Chrome extension to fix a UX papercut on [Duolingo](http://duolingo.com).
 
-[<i class="fa fa-chrome" aria-hidden="true"></i> Available on Chrome Store](https://chrome.google.com/webstore/detail/duoscroll/ihjlfoeejffahddkhjelifebndoimago)
+[<s><i class="fa fa-chrome" aria-hidden="true"></i> Available on Chrome Store</s>](https://chrome.google.com/webstore/detail/duoscroll/ihjlfoeejffahddkhjelifebndoimago)
 
 [<i class="fa fa-github" aria-hidden="true"></i> Source on GitHub](https://github.com/ashovlin/duoscroll)
 
-I've been using [Duolingo](http://www.duolingo.com) to learn German over the past year. I had started studying it in college a few years ago, but I only ended up taking one semester. I've found that Duolingo is a fun and free way to slowly keep at it.
+***1/30/20 Update:***  
+*I've since removed this from the Chrome Store. [Duolingo redesigned skill trees in 2018](https://making.duolingo.com/crown-levels-a-royal-redesign) which removed the "decay" concept that the extension was searching for.*
+<br />
+
+I took one semester of German in college a few years ago and have been using [Duolingo](http://www.duolingo.com) as a fun and free way to slowly keep at it.
 
 Lessons on Duolingo are organized in a skill tree. As you complete a topic it turns gold. Over time each skill decays, prompting you to return to previous skills to review them.
 

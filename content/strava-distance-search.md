@@ -2,7 +2,7 @@ Title: strava-distance-search
 Date: 2020-01-28
 Category: Projects
 Authors: Alex Shovlin
-Summary: Search for runs logged in Strava within a distance range
+Summary: Search for runs logged in Strava within a distance range.
 
 [https://strava-distance-search.herokuapp.com](https://strava-distance-search.herokuapp.com)
 

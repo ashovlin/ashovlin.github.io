@@ -1,16 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="inline-block">Alex Shovlin</h1>
-<div class="icons inline-block">
-	<a href="http://github.com/ashovlin"><i class="fa fa-github" title="Github"></i></a>
-</div>
-
+<h1>Alex Shovlin</h1>
 <h2>Projects</h2>
 <ul>
 {% for article in articles_page.object_list %}
-	<li><a href="{{article.url}}">{{article.title}}</a>  ({{article.date|strftime('%b %Y') }})</li>
+	<li><a href="{{article.url}}">{{article.title}}</a>  ({{article.date|strftime('%b. %Y') }})</li>
 	{{article.summary}}
 {% endfor %}
+</ul>
+
+<h2>Elsewhere</h2>
+<ul>
+	<li><a href="http://github.com/ashovlin">github.com/ashovlin</a></li>
+	<li>ashovlin at gmail</li>
 </ul>
 {% endblock %}

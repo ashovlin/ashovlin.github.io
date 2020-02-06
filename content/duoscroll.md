@@ -12,7 +12,7 @@ Summary: (A now deprecated) Chrome extension to fix a UX papercut on [Duolingo](
 *I've since removed this from the Chrome Store. [Duolingo redesigned skill trees in 2018](https://making.duolingo.com/crown-levels-a-royal-redesign) which removed the "decay" concept that the extension was searching for.*
 <br />
 
-I took one semester of German in college a few years ago and have been using [Duolingo](http://www.duolingo.com) as a fun and free way to slowly keep at it.
+I took one semester of German in college a few years ago and have been using [Duolingo](http://www.duolingo.com) to slowly keep at it.
 
 Lessons on Duolingo are organized in a skill tree. As you complete a topic it turns gold. Over time each skill decays, prompting you to return to previous skills to review them.
 
@@ -23,5 +23,3 @@ After each lesson I navigate back to the home page, which starts at the top of t
 Duoscroll is a Chrome extension that adds a button to your Chrome menu that scrolls to your next lesson that needs review. 
 
 ![Scrolling automatically on Duolingo](/images/duolingo_duoscroll.gif)
-
-There's room for improvement - the Chrome store entry is pretty sparse, the icon can be spruced up, and perhaps it can be invoked from the context menu or a new element on the page instead of taking up a spot in the Chrome menu. But it works for my use case, and is out there for anyone else who is tired of scrolling too.

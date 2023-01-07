@@ -4,7 +4,7 @@ Category: Projects
 Authors: Alex Shovlin
 Summary: Search for runs logged in Strava within a distance range.
 
-[https://strava-distance-search.herokuapp.com](https://strava-distance-search.herokuapp.com)
+[https://strava-distance-search.fly.dev/](https://strava-distance-search.fly.dev/)
 
 [<i class="fa fa-github" aria-hidden="true"></i> Source on GitHub](https://github.com/ashovlin/strava-distance-search)
 
@@ -17,4 +17,4 @@ I wanted to search for routes of the given distance that I've run before. I coul
 Now you can specify a range of distances to view all your runs within that range:  
 <img src="images/sds.gif" alt="Filtering runs" style="width:800px;"/>
 
-*Built with Django, React, Bulma, and Leaflet (with [Stamen's free tiles](http://maps.stamen.com)), and hosted on Heroku*
+*Built with Django, React, Bulma, and Leaflet (with [Stamen's free tiles](http://maps.stamen.com)), and hosted on Fly.io*

@@ -8,13 +8,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
+		<div id="container">
+<h1 style="display:inline-block; padding-right:12px;">Python Unit Test Timeout</h1> <span>November 2024</span>
+<a style="float: right" href="/">Back to home</a>
 
-
-<article>
-    <h1>Python Unit Test Timeout</h1> 
-    <p class="subtitle">November 2024</p>
-    <section>
-    <p>Recently at work I needed to apply a timeout to a Python unit test. It wasn't a performance-sensitive area, rather we needed to just verify that a regular expression wasn't <a href="https://en.wikipedia.org/wiki/ReDoS">backtracking exponentially</a>.</p>
+<p>Recently at work I needed to apply a timeout to a Python unit test. It wasn't a performance-sensitive area, rather we needed to just verify that a regular expression wasn't <a href="https://en.wikipedia.org/wiki/ReDoS">backtracking exponentially</a>.</p>
 <p><a href="https://stackoverflow.com/questions/19527320/how-can-i-limit-the-maximum-running-time-for-a-unit-test">StackOverflow</a> led me to <a href="https://pypi.org/project/pytest-timeout/">pytest-timeout</a>, but I was looking for a way to do this without introducing a new dependency.</p>
 <p>Python's <code>signal</code> offers a way to request that our thread will receive a signal in a specified number of seconds, as well as define the handler that is invoked when that signal is received. </p>
 <div class="highlight"><pre><span></span><code><span class="n">def</span><span class="w"> </span><span class="n">test_with_timeout</span><span class="p">(</span><span class="n">expr</span><span class="p">):</span>
@@ -36,10 +34,9 @@
 <span class="w">    </span><span class="n">raise</span><span class="w"> </span><span class="n">TimeoutError</span><span class="p">(</span><span class="s1">&#39;Test timed out&#39;</span><span class="p">)</span>
 </code></pre></div>
 
-<p>A caveat is that <code>signal.SIGALRM</code> is only <a href="https://docs.python.org/3/library/intro.html#availability">available</a> on Unix systems (which includes MacOS), so if you're running tests on Windows </p>   
-    </section>
-</article>
+<p>A caveat is that <code>signal.SIGALRM</code> is only <a href="https://docs.python.org/3/library/intro.html#availability">available</a> on Unix systems (which includes MacOS), so if you're running tests on Windows </p>
 <a href="/">Back to home</a>
+		</div>
 		<script src="https://getinsights.io/static/js/insights.js"></script>
 		<script>
 			insights.init('OCH9z9Pz5NcP2Gmx');
